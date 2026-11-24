@@ -1,0 +1,9 @@
+{
+  "paper_only": true,
+  "max_contracts_per_trade": 1,
+  "max_open_positions": 2,
+  "max_risk_per_trade_pct": "1",
+  "max_total_option_risk_pct": "5",
+  "max_daily_loss_pct": "2",
+  "fee_buffer_per_contract": "2.00"
+}

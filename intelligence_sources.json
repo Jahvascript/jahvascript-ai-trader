@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "execution_enabled": false,
+  "sources": {
+    "walter_bloomberg": {
+      "name": "Walter Bloomberg",
+      "category": "breaking_news",
+      "connection": "not_connected",
+      "url": "https://x.com/DeItaone",
+      "requires_verification": true,
+      "role": "news_event_risk",
+      "direct_entry_signal": false,
+      "preferred_channel": "discord"
+    },
+    "unusual_whales": {
+      "name": "Unusual Whales",
+      "category": "options_flow",
+      "connection": "not_connected",
+      "url": "https://unusualwhales.com/",
+      "requires_verification": false,
+      "role": "flow_confirmation",
+      "direct_entry_signal": false,
+      "preferred_channel": "x"
+    },
+    "cnn_fear_greed": {
+      "name": "CNN Fear and Greed",
+      "category": "market_sentiment",
+      "connection": "not_connected",
+      "url": "https://www.cnn.com/markets/fear-and-greed",
+      "requires_verification": false,
+      "role": "market_regime_context",
+      "direct_entry_signal": false,
+      "preferred_channel": "website"
+    }
+  }
+}

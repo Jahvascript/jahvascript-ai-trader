@@ -1,0 +1,51 @@
+.env
+
+.venv/
+
+__pycache__/
+
+# Webull SDK authentication cache
+conf/
+
+journal/
+
+# Jahvascript portfolio security rules
+.env.*
+!.env.example
+venv/
+*.pyc
+.DS_Store
+data/
+logs/
+backups/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.csv
+*.parquet
+*.pkl
+*.pem
+*.key
+credentials.json
+secrets.json
+*token*.json
+
+# Local development snapshots
+*.bak
+*.backup
+*.backup-*
+*.before-*
+*.pre_*.py
+.pytest_cache/
+.mypy_cache/
+
+# Rotated logs and private configuration
+*.log.*
+*.log-*
+*.log_*
+*.sqlite-*
+*.db-*
+.envrc
+.netrc
+.pypirc
